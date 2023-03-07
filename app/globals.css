@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+ 
+  .menu {
+    @apply bg-white p-2 font-serif shadow-xl	mb-2;
+  }
+  a {
+    @apply  text-white text-lg hover:text-2xl  py-2 px-6 ;
+  }
+  /* .texts{
+    @apply text-5xl w-80  font-serif text-white ;
+  } */
+  /* .img{
+    @apply bg-no-repeat bg-cover bg-center
+  } */
+
+
+}
+@media (min-width: 320px) { 
+  .cont1{
+   @apply  py-10 px-4 flex-wrap 
+  }
+.main{
+  @apply flex-wrap
+}
+  .text-manaheel{
+    @apply columns-2 inline-flex mb-10
+  }
+  .logo{
+    @apply  hidden
+  }
+  .head{
+    @apply  justify-end mx-2 px-2 py-5
+  }
+  .pana{
+    @apply w-24 h-24 
+  }
+  .pana1{
+    @apply text-sm p-2 
+  }
+  .instruc{
+    @apply my-10 rounded-none mx-2 rounded-bl-lg text-xl
+  }
+  .contact{
+    @apply mx-8 text-xl rounded-none rounded-t-lg
+  }
+  .box1{
+    @apply text-2xl text-center
+  }
+  .box2{
+    @apply text-sm mx-4 pt-4 w-72 text-center
+  }
+  .box{
+    @apply columns-2
+  }
+  .icon{
+    @apply justify-evenly  ml-20
+  }
+  .tab{
+    @apply mt-10 mb-5
+  }
+  .list1{
+    @apply text-sm
+  }
+  .list2{
+    @apply text-sm
+  }
+ }
+
